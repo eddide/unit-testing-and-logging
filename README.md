@@ -53,10 +53,15 @@ Implementierung des Algorithmus zur Anwendung der Dekoratoren in der logistische
 
 ### classification report:
 | |precision|recall|f1-score|support|
+
 |0|0.87|0.96|0.91|162|
+
 |1|0.96|0.86|0.91|168|
+
 |accuracy|||0.91|330|
+
 |macro avg|0.91|0.91|0.91|330|
+
 |weighted avg|0.91|0.91|0.91|330|
 
 ### Logistische Regression nach dem herkömmlichen Ansatz:
