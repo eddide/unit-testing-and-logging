@@ -1,5 +1,5 @@
 # Binder Badge
-https://mybinder.org/v2/gh/eddide/mybinder_logreg/HEAD
+https://mybinder.org/v2/gh/eddide/unit-testing-and-logging/HEAD
 
 # Dokumentation zur Ausführung
 1. Aktivieren des Links zu Binder
