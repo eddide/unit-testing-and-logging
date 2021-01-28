@@ -51,7 +51,7 @@ Implementierung des Algorithmus zur Anwendung der Dekoratoren in der logistische
 
 ## Bildschirmausgabe:
 
-![Bildschirmausgabe](https://raw.githubusercontent.com/eddide/unit-testing-and-logging/main/grafik.png)
+![Bildschirmausgabe](https://raw.githubusercontent.com/eddide/unit-testing-and-logging/main/Bildschirmausgabe.PNG)
 
 
 ### Logistische Regression nach dem herkömmlichen Ansatz:
