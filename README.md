@@ -7,6 +7,7 @@ https://mybinder.org/v2/gh/eddide/unit-testing-and-logging/HEAD
 3. In der Toolbar unter "Kernel" "Restart & Run All" aktivieren. --> Bestätigen des Pop-up Fensters mit "Restart and Run All Cells"
 4. Ergebnisse von my_logger vergleichen
 5. Ergebnisse von my_timer abgleichen
+6. bei mehrmaliger Ausführung Ergebnisse im "__init__.log" abgleichen.
 
 ## Notebook Inhalt inkl. Einbindung des Input-Output Unit Tests
 ### Libraries Import
@@ -63,3 +64,11 @@ Es sollten ähnliche Ergebnisse wie diese angezeigt werden:
 - accuracy: 91%
 - reall: 96 und 85%
 - f1-score: 91 und 90 %
+
+# "__init__.log"
+Diese Datei erstellt sich nach der erstmaligen Ausführung des Notebooks
+Hier werden die Ergebnisse aus verschiedenen Runs des Modells abgespeichert.
+Diese können dann verglichen werden.
+Dies bietet sich besonders dann an, wenn die Ergebnisse von unterschiedlichen Ausprägungen der Datensatzgröße o.ä. angepasst werden.
+Vor allem interessant ist dies bei der Anwendung von neuronalen Netzwerken und der Experimentierung mit unterschiedlicher Anzahl an Neuronen und/oder Layern.
+Hier können dann direkt die Ergebnisse verglichen werden.
