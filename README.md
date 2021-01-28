@@ -33,6 +33,7 @@ Verwendung unterschiedlicher Visualisierungen um die Daten zu erforschen
 Aufplitten der Daten mit train_test_split
 - Trainingsdaten 66% des Datensatzes
 - **Testdaten** 33% des Datensatzes
+- Die Prädiktoren des Testdatensatzes sind somit in **X_test** und die Zielvariable in **Y_test** gespeichert
 
 ## Class TheAlgorithm
 Implementierung des Algorithmus zur Anwendung der Dekoratoren in der logistischen Regression der Test-und Trainingsdaten
@@ -47,6 +48,16 @@ Implementierung des Algorithmus zur Anwendung der Dekoratoren in der logistische
 - die prediction sollte ebenfalls wie das fitten in weniger als 0,02 Sekunden abgeschlossen sein
 - die **Accuracy** des Modells auf die Testdaten sollte bei ca. 91% liegen.
 - die **confusion matrix** kann hier ebenfalls mit der confusion matrix des herkömmlichen Ansatzes überprüft werden --> hier sollte es keine, bzw. nur geringe Abweichungen geben.
+
+[Bildschirmausgabe](https://raw.githubusercontent.com/eddide/unit-testing-and-logging/main/grafik.png)
+
+### classification report:
+| |precision|recall|f1-score|support|
+|0|0.87|0.96|0.91|162|
+|1|0.96|0.86|0.91|168|
+|accuracy|||0.91|330|
+|macro avg|0.91|0.91|0.91|330|
+|weighted avg|0.91|0.91|0.91|330|
 
 ### Logistische Regression nach dem herkömmlichen Ansatz:
 Anwenden der logistischen Regression zur Vorhersage der Kategorie
