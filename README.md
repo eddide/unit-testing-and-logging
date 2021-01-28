@@ -49,6 +49,8 @@ Implementierung des Algorithmus zur Anwendung der Dekoratoren in der logistische
 - die **Accuracy** des Modells auf die Testdaten sollte bei ca. 91% liegen.
 - die **confusion matrix** kann hier ebenfalls mit der confusion matrix des herkömmlichen Ansatzes überprüft werden --> hier sollte es keine, bzw. nur geringe Abweichungen geben.
 
+## Bildschirmausgabe:
+
 ![Bildschirmausgabe](https://raw.githubusercontent.com/eddide/unit-testing-and-logging/main/grafik.png)
 
 
