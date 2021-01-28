@@ -41,11 +41,11 @@ Implementierung des Algorithmus zur Anwendung der Dekoratoren in der logistische
 - bei "predict" wird die logistische Regression auf die Testdaten angewendet
 
 ## Evaluation der Ergebnisse
-- das fitten sollte in weniger als 0,02 Sekunden abgeschlossen sein
+- das fitten sollte in weniger als 0,1 Sekunden abgeschlossen sein
 - die **Accuracy** des Modells auf die Trainingsdaten sollte bei ca. 90% liegen
-- der **classification report** der Vorhersage der Testdaten sollte einen Recall von 96 und 86%, sowie einen F1 Score von 91 und 91% ausgeben
+- der **classification report** der Vorhersage der Testdaten sollte einen Recall von 96 und 85%, sowie einen F1 Score von 91 und 90% ausgeben
 - ein Abgleich des classification reports mit demjenigen des herkömmlichen Ansatzes sollte keine, bzw. nur geringe Abweichungen anzeigen.
-- die prediction sollte ebenfalls wie das fitten in weniger als 0,02 Sekunden abgeschlossen sein
+- die prediction sollte ebenfalls wie das fitten in weniger als 0,1 Sekunden abgeschlossen sein
 - die **Accuracy** des Modells auf die Testdaten sollte bei ca. 91% liegen.
 - die **confusion matrix** kann hier ebenfalls mit der confusion matrix des herkömmlichen Ansatzes überprüft werden --> hier sollte es keine, bzw. nur geringe Abweichungen geben.
 
